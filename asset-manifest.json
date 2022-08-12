@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/reactWhiteBadge/static/css/main.f79bdf3a.css",
+    "main.js": "/reactWhiteBadge/static/js/main.8c67b75d.js",
+    "index.html": "/reactWhiteBadge/index.html",
+    "main.f79bdf3a.css.map": "/reactWhiteBadge/static/css/main.f79bdf3a.css.map",
+    "main.8c67b75d.js.map": "/reactWhiteBadge/static/js/main.8c67b75d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f79bdf3a.css",
+    "static/js/main.8c67b75d.js"
+  ]
+}
