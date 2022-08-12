@@ -1,0 +1,76 @@
+.mainContainer {
+  margin: 32px;
+  text-align: center;
+  padding: 12px;
+  background-image: url("../../assets/ncLogo.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 512px;
+}
+.mainContainer span {
+  padding: 12px;
+}
+.mainContainer .hiddenContent {
+  visibility: hidden;
+}
+.mainContainer .visibleContent {
+  opacity: 1;
+  -webkit-animation-name: fadeInOpacity;
+          animation-name: fadeInOpacity;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  padding: 4px;
+  margin: 12px;
+}
+@-webkit-keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.mainContainer .componentsContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainContainer .questionAnswer {
+  color: white;
+  padding: 4px;
+  margin: 12px;
+  background-color: rgb(103, 67, 156);
+  border-radius: 25px;
+}
+.mainContainer .questionAnswer p {
+  background-color: rgb(157, 119, 213);
+  margin: 12px;
+  padding: 4px;
+  border-radius: 10px;
+}
+.mainContainer .lastQuestionAnswer {
+  color: white;
+  padding: 4px;
+  margin: 12px 12px 6vh 12px;
+  background-color: rgb(103, 67, 156);
+  border-radius: 25px;
+}
+.mainContainer .lastQuestionAnswer p {
+  background-color: rgb(157, 119, 213);
+  margin: 12px;
+  padding: 4px;
+  border-radius: 10px;
+}/*# sourceMappingURL=mainComponentStyle.module.css.map */

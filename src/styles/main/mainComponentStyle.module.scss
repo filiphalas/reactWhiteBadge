@@ -1,0 +1,73 @@
+.mainContainer {
+    margin: 32px;
+    text-align: center;
+    padding: 12px;
+    background-image: url("../../assets/ncLogo.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 512px;
+
+    span {
+        padding: 12px;
+    }
+
+    .hiddenContent {
+        visibility: hidden;
+    }
+
+    .visibleContent {
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 1s;
+        padding: 4px;
+        margin: 12px;
+    }
+
+    @keyframes fadeInOpacity {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .componentsContainer {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .questionAnswer {
+        color: white;
+        padding: 4px;
+        margin: 12px;
+        background-color: rgb(103, 67, 156);
+        border-radius: 25px;
+
+        p {
+            background-color: rgb(157, 119, 213);
+            margin: 12px;
+            padding: 4px;
+            border-radius: 10px;
+        }
+    }
+
+    .lastQuestionAnswer {
+        color: white;
+        padding: 4px;
+        margin: 12px 12px 6vh 12px;
+        background-color: rgb(103, 67, 156);
+        border-radius: 25px;
+        p {
+            background-color: rgb(157, 119, 213);
+            margin: 12px;
+            padding: 4px;
+            border-radius: 10px;
+        }
+    }
+}
